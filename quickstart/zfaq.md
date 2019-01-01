@@ -75,8 +75,8 @@ the logic implementing an IETF RFC or another protocol without relying on extern
 >     compile("io.ktor:ktor-server-netty:$ktor_version")
 > }
 > ```
-> * For gradle, check: <https://ktor.io/quickstart/gradle.html#engine>
-> * For maven, check: <https://ktor.io/quickstart/maven.html>
+> * For gradle, check: <https://toliner.github.io/ktor-doc-ja/quickstart/gradle.html#engine>
+> * For maven, check: <https://toliner.github.io/ktor-doc-ja/quickstart/maven.html>
 
 ## Does ktor provide a way to catch IPC signals (e.g. SIGTERM or SIGINT) so the server shutdown can be handled gracefully?
 {: #sigterm }
@@ -96,7 +96,7 @@ the logic implementing an IETF RFC or another protocol without relying on extern
 {: #no-attribute-key-locations }
 
 > You get this error if you try to use the locations feature without actually installing it. Check the locations feature:
-> <https://ktor.io/features/locations.html>
+> <https://toliner.github.io/ktor-doc-ja/features/locations.html>
 
 ## How can I test the latest commits on master?
 {: #bleeding-edge }
@@ -124,7 +124,7 @@ Something similar to `Server: ktor-server-core/1.0.0 ktor-server-core/1.0.0` sho
 > and the return key <kbd>⏎</kbd> to go to the currently selected page.
 
 > This search only uses page titles, and keywords for the search. It is also possible to do a Google search
-> in the `ktor.io` domain to do a full text search on all its contents. 
+> in the `toliner.github.io/ktor-doc-ja/` domain to do a full text search on all its contents. 
 
 > Long code fragments that are folded, can be expanded by either clicking on
 > the `'+'`/`'-'` symbol that always appears in the top left corner of mobile devices

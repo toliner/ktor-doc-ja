@@ -421,7 +421,7 @@ $(document).ready(function() {
             lines.push(`<small style="color:#999;">And ${invisibleLinks} more...</small>`);
         }
         if (query !== '' && !containsHash) {
-            lines.push(`<a href="https://www.google.com/search?q=site:ktor.io+-site:*.ktor.io+${encodeURIComponent(query.trim())}">Search <code>${query.trim().escapeHTML()}</code> in google site:ktor.io</a>`)
+            lines.push(`<a href="https://www.google.com/search?q=site:toliner.github.io/ktor-doc-ja/.io+-site:*.toliner.github.io/ktor-doc-ja/+${encodeURIComponent(query.trim())}">Search <code>${query.trim().escapeHTML()}</code> in google site:toliner.github.io/ktor-doc-ja/</a>`)
         }
         let outLines = [];
         for (let n = 0; n < lines.length; n++) {

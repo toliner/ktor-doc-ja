@@ -1,11 +1,11 @@
-repository: ktorio/ktorio.github.io
+repository: toliner/ktor-doc-ja
 encoding: utf-8
 output: web
 
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 title: Ktor
 description: "Ktor"
-url: http://ktor.io
+url: http://toliner.github.io
 
 ktor_version: 1.1.1
 ktor_version_eap: 1.1.1
@@ -17,7 +17,7 @@ ktor_init_tools_url: https://ktor.io/ktor-init-tools/
 blog_enabled: false
 
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-github_editme_path: ktorio/ktorio.github.io/edit/master/
+github_editme_path: toliner/ktor-doc-ja/edit/master/
 
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 google_analytics: UA-47631155-3
